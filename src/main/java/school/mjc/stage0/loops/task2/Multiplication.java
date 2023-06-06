@@ -2,11 +2,10 @@ package school.mjc.stage0.loops.task2;
 
 public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
-        int number = 0;
-        while (number <= multiplyByAndToInclusive) {
-            int result = number * multiplyByAndToInclusive;
-            System.out.println(result);
-            multiplier++;
+         int i =0;
+        while (i <= Math.abs(multiplyByAndToInclusive)){
+            System.out.println(i * multiplyByAndToInclusive);
+            i += 1;
         }
       
     }
